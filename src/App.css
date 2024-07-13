@@ -1,0 +1,84 @@
+* {
+  text-align: center;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 1000px;
+  height: 100%;
+  background-color: aquamarine;
+}
+.cal {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+}
+.text {
+  margin-top: 1rem;
+}
+.btn {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+}
+input {
+  border-radius: 10px;
+}
+.input input[type="text"]:focus {
+  border: 3px solid aqua;
+  border-color: none;
+}
+.btn input {
+  width: 5rem !important;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input input {
+  width: 15rem;
+}
+button {
+  background-color: blueviolet;
+  border-radius: 10px !important;
+  width: 5rem;
+}
+.total {
+  margin-left: 2rem;
+  background-color: blueviolet;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  border-radius: 10px;
+  width: 500px
+}
+.amount p {
+  font-size: 20px;
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.tip {
+  color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+}
+.bill p {
+  display: inline;
+}
+.per {
+  display: inline;
+}
+.reset button {
+  width: 90%;
+  background-color: aqua;
+  margin-top: 1rem;
+}
